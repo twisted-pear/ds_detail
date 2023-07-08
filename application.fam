@@ -1,0 +1,11 @@
+App(
+    appid="ds_detail",
+    name="Dolphin State",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ds_detail",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    fap_category="Examples",
+)
